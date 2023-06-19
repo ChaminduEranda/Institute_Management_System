@@ -1,0 +1,80 @@
+.infotable th,
+.infotable td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px 15px;
+}
+.infotable {
+  width: 100%;
+}
+.infotable th {
+  background: #000;
+  color: #fff;
+}
+.loginform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error {
+  font-size: small;
+  text-align: right;
+  text-align: center;
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.e {
+  font-size: small;
+  text-align: left;
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+input#photo {
+  width: 260px;
+}
+
+img.showimg {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.h {
+  margin-top: 350px;
+}
+
+a.sathra {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+li.sa {
+  text-align: left;
+}
+
+.example {
+  align-items: right;
+}
+
+ul#harry li {
+  display: inline;
+}
+
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+
+.success {background-color: #04AA6D;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */

@@ -1,0 +1,153 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(../images/homei.png);
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+  background-position-x: 95%; 
+}
+.brand-name {
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+}
+.header-text {
+  max-width: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+  /* background-color: aqua; */
+  /* border-color: brown; */
+}
+h1 {
+  font-size: 35px;
+}
+p {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.square1 {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: blue;
+  margin: 15px 0;
+}
+.square2 {
+  height: 9px;
+  width: 9px;
+  display: inline-block;
+  background: blue;
+  margin: 15px 0;
+}
+.square3 {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: blue;
+  margin: 15px 0;
+}
+.square4 {
+  height: 9px;
+  width: 9px;
+  display: inline-block;
+  background: blue;
+  margin: 15px 0;
+}
+.line1 {
+  width: 50px;
+  height: 1px;
+  background: blue;
+  display: inline-block;
+}
+.line2 {
+  width: 80px;
+  height: 1px;
+  background: blue;
+  display: inline-block;
+}
+.motto {
+  max-width: 500px;
+  height: 60px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  /* background-color: aqua; */
+  font-family: Arial, Helvetica, sans-serif;
+  border-style: groove;
+  border-color: blue;
+}
+#more {
+  display: none;
+}
+button {
+  margin: 20px 0;
+  padding: 18px 40px;
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid #7868e6;
+  outline: none;
+  font-weight: bold;
+}
+.square-boxes2 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+
+.info {
+  border-color: #2196f3;
+  color: dodgerblue;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.h{
+  margin: 0px;
+}
+
+
+
+
+

@@ -1,0 +1,184 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+  url(../images/background-image.webp);
+  background-repeat: no-repeat;
+
+  /* background-color: #7868e6; */
+
+} 
+.form-box {
+  height: 420px;
+  width: 400px;
+  position: relative;
+  margin: auto;
+  background: azure;
+  margin-top: 90px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#logimg {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  right: 50px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.input-group1 {
+  top: 200px;
+  position: absolute;
+  width: 250px;
+  transition: 0.5s;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 20%;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn {
+  width: 40%;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 25px 50%;
+  background-color: #7868e6;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  font-weight: 500;
+  color: azure;
+}
+
+#login {
+  left: 15px;
+}
+
+
+
+.bubble img {
+  width: 65px;
+  animation: bubble 5.7s linear infinite;
+}
+.bubble {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  bottom: -60px;
+
+}
+
+@keyframes bubble {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+/*------------------------------------*/
+
+.bubble img:nth-child(1) {
+  animation-delay: 2s;
+  width: 40px;
+}
+.bubble img:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.bubble img:nth-child(3) {
+  animation-delay: 3s;
+  width: 70px;
+}
+.bubble img:nth-child(4) {
+  animation-delay: 2s;
+}
+.bubble img:nth-child(5) {
+  animation-delay: 4.5s;
+  width: 35px;
+}
+.bubble img:nth-child(6) {
+  animation-delay: 3.2s;
+  width: 40px;
+}
+.bubble img:nth-child(7) {
+  animation-delay: 6s;
+}
+.bubble img:nth-child(8) {
+  animation-delay: 7.1s;
+  width: 30px;
+}
+.bubble img:nth-child(9) {
+  animation-delay: 1.5s;
+  width: 55px;
+}
+
+/*------------------------------------*/
+#home-btn {
+  width: 40px;
+  position: fixed;
+  right: 25px;
+  top: 45px;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: azure;
+  border: burlywood solid 5px;
+}
+
+.error{  
+
+	font-size: small;
+	text-align: right;
+	text-align: center;
+	color: red;
+	font-style: italic;
+  font-weight: bold;
+}
+
+.e{
+  width: 100%;
+  padding: 0px 0;
+  margin: -6px 20%;
+  outline: none;
+  background: transparent;
+  font-weight: bold;
+}
+
+
+.submit-btn:hover {
+  background-color: #21a1f1;
+}
+
+.error_msg{  
+
+	font-size: medium;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+
+}
+
